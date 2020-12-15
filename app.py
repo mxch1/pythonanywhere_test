@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return '<h1>Quick test</h1>'
+    return '<h1>Quick test done in Git!</h1>'
 
 if __name__ =='__main__':
     app.run()
